@@ -30,10 +30,10 @@ function prospect_cf7_before_send( $contact_form ){
 	$prospectkey = get_post_meta( $contact_form->id(), 'prospect_cf7_prospectkey', true );
 }
 add_action( 'wpcf7_before_send_mail', 'prospect_cf7_before_send' );
+```
 
 
-
-
+![Image of Plugin](https://raw.githubusercontent.com/javimata/prospect_plugin/master/plugin_prospect.png)
 
 
 
