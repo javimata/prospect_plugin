@@ -14,7 +14,7 @@ Intenta conectar los formularios Contacto Form 7 de Wordpress con la suite Prosp
 El envío a Prospect Suite debe ser mediante metodo POST
 
 Ejemplo con jQuery:
-```
+```javascript
 $.post(url_prospect, { nombre: fnombre, email: femail, key:"tgT5s4D7Ns25" });
 ```
 
@@ -22,7 +22,7 @@ Los campos deben tomarse automaticamente de los campos del formulario Contact Fo
 
 Lo que me falta configurar es la funcion before_send_mail:
 
-````
+````php
 function prospect_cf7_before_send( $contact_form ){
 	$contact_form_id = $contact_form->id();
 	$prospectkey = get_post_meta( $contact_form->id(), 'prospect_cf7_prospectkey', true );
