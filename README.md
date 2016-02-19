@@ -1,9 +1,6 @@
-![GitHub Logo](/images/logo.png)
-Format: ![Alt Text](url)
-
 # Plugin para Wordpress
-## contact-form-7-prospectsuite
-### V 1.0 (Beta)
+*contact-form-7-prospectsuite*
+**V 1.0 (Beta)**
 
 Mi "Hola mundo" de plugins en Wordpress
 Intenta conectar los formularios Contacto Form 7 de Wordpress con la suite Prospect Suite
