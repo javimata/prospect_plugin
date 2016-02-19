@@ -176,8 +176,8 @@ function prospect_settings_page()
                 <tr valign="top">
                     <th scope="row">Metodo de envio</th>
                     <td><select name="prospect-metodoEnvio">
-						<option value="jQuery" <?php if ( $metodo=="jQuery" || $metodo == "" ): ?>selected<?php endif;?>>jQuery (Default)</option>
-						<option value="cURL" <?php if ( $metodo=="cURL"): ?>selected<?php endif;?>>cURL</option>
+			<option value="jQuery" <?php if ( $metodo=="jQuery" || $metodo == "" ): ?>selected<?php endif;?>>jQuery (Default)</option>
+			<option value="cURL" <?php if ( $metodo=="cURL"): ?>selected<?php endif;?>>cURL</option>
                     </select>
                     </td>
                 </tr>
