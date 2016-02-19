@@ -1,4 +1,4 @@
-# Plugin para Wordpress
+# Wordpress Plugin
 __contact-form-7-prospectsuite__
 _V 1.0 (Beta)_
 
@@ -37,7 +37,10 @@ add_action( 'wpcf7_before_send_mail', 'prospect_cf7_before_send' );
 
 
 
+
+
 -------------- SPANISH -------------------
+# Plugin para Wordpress
 
 Mi "Hola mundo" de plugins en Wordpress
 Intenta conectar los formularios Contact Form 7 de Wordpress con la suite Prospect Suite
