@@ -19,7 +19,7 @@ Ejemplo con jQuery:
 $.post(url_prospect, { nombre: fnombre, email: femail, key:"tgT5s4D7Ns25" });
 ```
 
-Los campos deben tomarse automaticamente de los campos del formulario Contact Form 7, el valor de **key** es el valor que se guarda en la tab del plugin con el campo $prospectkey que se guarda en un registro de postmeta, quisiera poder seleccionar el metodo de envio, usando jQuery o cURL.
+Los campos deben tomarse automaticamente de los campos del formulario Contact Form 7, el valor de **key** es el valor que se guarda en la tab del plugin con el campo **$prospectkey** que se guarda en un registro de postmeta, quisiera poder seleccionar el metodo de envio, usando jQuery o cURL.
 
 Lo que me falta configurar es la funcion before_send_mail:
 
