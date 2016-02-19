@@ -27,8 +27,6 @@ Lo que me falta configurar es la funcion before_send_mail:
 function prospect_cf7_before_send( $contact_form ){
 	$contact_form_id = $contact_form->id();
 	$prospectkey = get_post_meta( $contact_form->id(), 'prospect_cf7_prospectkey', true );
-
-
 }
 add_action( 'wpcf7_before_send_mail', 'prospect_cf7_before_send' );
 ```
