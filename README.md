@@ -10,3 +10,24 @@ Intenta conectar los formularios Contacto Form 7 de Wordpress con la suite Prosp
 - [x] Crea Tab en Contact Form con campo para la Key del formulario
 - [x] Guarda la Key ingresada
 - [ ] Genera el envio de los datos via jQuery o cURL
+
+El envío a Prospect Suite debe ser mediante metodo POST
+
+Ejemplo con jQuery:
+```
+$.post(url_prospect, { nombre: fnombre, email: femail, key:"tgT5s4D7Ns25" });
+```
+
+Los campos deben tomarse automaticamente de los campos del formulario Contact Form 7, el valor de **key** es el valor que se guarda en la tab del plugin con el campo $prospectkey que se guarda en un registro de postmeta, quisiera poder seleccionar el metodo de envio, usando jQuery o cURL.
+
+Lo que me falta configurar es la funcion before_send_mail:
+
+````
+function prospect_cf7_before_send( $contact_form ){
+	$contact_form_id = $contact_form->id();
+	$prospectkey = get_post_meta( $contact_form->id(), 'prospect_cf7_prospectkey', true );
+
+
+}
+add_action( 'wpcf7_before_send_mail', 'prospect_cf7_before_send' );
+```
