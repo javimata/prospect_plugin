@@ -1,7 +1,8 @@
-# prospect_plugin
-## Plugin para Wordpress
+# Plugin para Wordpress
+## contact-form-7-prospectsuite
+### V 1.0 (Beta)
 
-Mi "Hola mundo" de plugins
+Mi "Hola mundo" de plugins en Wordpress
 Intenta conectar los formularios Contacto Form 7 de Wordpress con la suite Prospect Suite
 
 - [x] Instalacion en Wordpress
